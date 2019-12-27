@@ -2,13 +2,13 @@ package com.walker.jvm;
 
 /**
  * <p>
- *
+ * -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:log/gc.log -Xmx20m -Xms5m
  * </p>
  *
  * @author mu qin
  * @date 2019/12/23
  */
-public class Main {
+public class PrintGCDetails {
     public static void main(String[] args) {
         System.gc();
         System.out.println("回收内存");
